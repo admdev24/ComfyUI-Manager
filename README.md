@@ -2,9 +2,12 @@
 
 **ComfyUI-Manager** is an extension designed to enhance the usability of [ComfyUI](https://github.com/comfyanonymous/ComfyUI). It offers management functions to **install, remove, disable, and enable** various custom nodes of ComfyUI. Furthermore, this extension provides a hub feature and convenience functions to access a wide range of information within ComfyUI.
 
-![menu](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/refs/heads/Main/ComfyUI-Manager/images/dialog.jpg)
+<img width="1646" height="928" alt="2026-08-23_18-05-17" src="https://github.com/user-attachments/assets/cc4e5338-d95f-46f3-8227-9074e537e760" />
+
+
 
 ## NOTICE
+* v3.40: Update UI
 * V3.38: **Security patch** - Manager data migrated to protected path. See [Migration Guide](docs/en/v3.38-userdata-security-migration.md).
 * V3.16: Support for `uv` has been added. Set `use_uv` in `config.ini`.
 * V3.10: `double-click feature` is removed
@@ -97,7 +100,8 @@ This repository provides Colab notebooks that allow you to install and use Comfy
 
 2. If you click on 'Install Custom Nodes' or 'Install Models', an installer dialog will open.
 
-    ![menu](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/refs/heads/Main/ComfyUI-Manager/images/dialog.jpg)
+<img width="1646" height="928" alt="2026-08-23_18-05-17" src="https://github.com/user-attachments/assets/cc4e5338-d95f-46f3-8227-9074e537e760" />
+
 
     * There are three DB modes: `DB: Channel (1day cache)`, `DB: Local`, and `DB: Channel (remote)`. 
       * `Channel (1day cache)` utilizes Channel cache information with a validity period of one day to quickly display the list.
@@ -111,9 +115,9 @@ This repository provides Colab notebooks that allow you to install and use Comfy
 
     * The ```Fetch Updates``` menu retrieves update data for custom nodes locally. Actual updates are applied by clicking the ```Update``` button in the ```Install Custom Nodes``` menu.
 
-3. Click 'Install' or 'Try Install' button.
+3. Click 'Install' or 'Try Update' button.
 
-    ![node-install-dialog](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/custom-nodes.jpg)
+<img width="2139" height="1157" alt="2026-08-23_18-07-47" src="https://github.com/user-attachments/assets/a02b0f0f-6e7f-44b6-a441-1f6bb45bb4a1" />
 
     ![model-install-dialog](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/models.jpg)
 
@@ -250,11 +254,13 @@ The following settings are applied based on the section marked as `is_default`.
 
 ## Support for installing missing nodes
 
-![missing-menu](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/missing-menu.jpg)
+<img width="1646" height="928" alt="2026-08-23_18-05-17_2" src="https://github.com/user-attachments/assets/09206603-0f07-47b0-95e4-51a44ffa65d2" />
+
 
 * When you click on the ```Install Missing Custom Nodes``` button in the menu, it displays a list of extension nodes that contain nodes not currently present in the workflow.
 
-![missing-list](https://raw.githubusercontent.com/ltdrdata/ComfyUI-extension-tutorials/Main/ComfyUI-Manager/images/missing-list.jpg)
+<img width="2141" height="1155" alt="2026-08-23_18-15-49" src="https://github.com/user-attachments/assets/b8bcdff1-7527-40b6-8d19-7010f544af20" />
+
 
 
 # Config
